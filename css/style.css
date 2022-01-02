@@ -1,5 +1,6 @@
 * {
   border: solid black 1px;
+
 }
 
 .block {
@@ -17,6 +18,7 @@
   margin: 30px;
   margin-left: 50px;
   color: white;
+  font-weight: 900;
 }
 .block:hover {
   background-color: white;
@@ -47,10 +49,10 @@
   background-color: black;
 }
 .block7 {
-  background-color: aqua;
+  background-color: rgb(10, 131, 131);
 }
 .block8 {
-  background-color: aquamarine;
+  background-color: rgb(123, 150, 25);
 }
 .block9 {
   background-color:rgb(26, 221, 163);
@@ -61,6 +63,7 @@
 
 
 .count {
+  background-color: rgb(233, 44, 10);
   text-align: center;
 }
 
@@ -69,9 +72,12 @@
 }
 
 .outcome {
+  text-align: center;
+  font-size: larger;
+  font-weight: 900;
   width: 1000px;
   height: 500px;
-  background-color: white;
+  background-color: rgb(255, 249, 249);
   display:none;
 }
 
@@ -81,5 +87,7 @@
 }
 
 .final {
+  font-size: larger;
+  font-weight: 900;
   display: none;
 }
